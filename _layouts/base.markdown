@@ -9,7 +9,7 @@ activeP: true
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     {% include meta.markdown %}
-    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="{{ '/assets/css/normalize.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/responsive.css' | relative_url }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
