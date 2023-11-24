@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Robert A. Butler is a contemporary American silversmith who 
   earned his English Hallmark in 1976. Over the course of his 
   career his artwork has been displayed in museums around the world.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "butlersilver.com" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
