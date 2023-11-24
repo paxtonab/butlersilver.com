@@ -16,12 +16,14 @@ gallery:
 
 <section id="home-banner">
   <ul id="home-gallery">
-    {% for silver in page.gallery %}
+    {% for silver in site.silver_gallery %}
+      {% if silver.index == 1 or silver.index == 2 or silver.index == 3 %}
       <li>
         <a href="{{ silver.permalink }}">
-          <img src="{{ silver.url }}" alt="{{ silver.name }}">
+          <img src="{{ silver.img }}" alt="{{ silver.title }}">
         </a>
       </li>
+      {% endif %}
     {% endfor %}
   </ul>
 </section>

@@ -6,5 +6,5 @@ activeP: true
 img: "/assets/images/butler-hair-comb.jpg"
 img_small: "/assets/images/butler-hair-comb-small.jpg"
 permalink: "/silver/silver-hair-comb"
-index: 2
+index: 21
 ---

@@ -10,8 +10,8 @@ activeP: true
     {% for silver in site.silver_gallery %}
       <li>
         <a href="{{ silver.permalink }}">
-          <img src="{{ silver.img_small }}" alt="{{ silver.name }}">
-          <p>{{ silver.meta_description }}</p>
+          <img src="{{ silver.img_small }}" alt="{{ silver.title }}">
+          <p>{{ silver.title }}</p>
         </a>
       </li>
     {% endfor %}
