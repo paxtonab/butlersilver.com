@@ -1,0 +1,191 @@
+
+@media screen and (min-width: 300px) {
+
+	#logo img {
+		float:none;
+		display: block;
+		margin: auto;
+		width: 100px;
+	}
+
+	#logo_home img {
+		float:none;
+		display: block;
+		margin: auto;
+		width: 75px;
+	}
+
+	#logo_home {
+		float:none;
+		display: block;
+		margin: auto;
+	}
+
+	#nav_home {
+		text-align: right;
+		float: none;
+    font-size: 0;
+	}
+
+}
+
+@media screen and (min-width: 480px) {
+
+  /**********************************
+  PAGE: PORTFOLIO
+  ***********************************/
+
+  #gallery li {
+    width: 45%;
+  }
+
+  #gallery li p {
+    min-height: 45px;
+  }
+
+	/**********************************
+	Home Page
+	***********************************/
+
+	/*#home-gallery li {
+    width: 45%;
+		margin: 2.5%;
+  }*/
+
+  /**********************************
+  PAGE: ABOUT
+  ***********************************/
+
+  .profile-photo {
+    float: left;
+    margin: 0 31px 15px 0;
+  }
+
+
+  /**********************************
+  PAGE: CONTACT/RESUME
+  ***********************************/
+
+  #primary {
+    max-width: 470px;
+    min-width: 400px;
+  }
+
+  #secondary {
+    max-width: 376px;
+  }
+
+}
+
+@media screen and (min-width: 750px) {
+
+  /**********************************
+  HEADER
+  ***********************************/
+	body {
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		background-attachment: fixed;
+	}
+
+  header {
+    float: left;
+  }
+
+  #name {
+    float:left;
+  }
+
+  #logo img {
+    float:left;
+    margin: 15px 10px 0px 0px;
+  }
+
+  nav {
+    background: none;
+	  border-top: 1px solid #7c7b98;
+		border-bottom: 1px solid #7c7b98;
+    font-size: 1.125em;
+    margin: 2% 0;
+  }
+
+	#nav_home {
+		background: none;
+		margin-right: 5%;
+		text-align: right;
+		float: none;
+    font-size: 0;
+	}
+
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 34%;
+  }
+
+	#logo_home {
+    margin: 10px auto 25px auto;
+    text-align: center;
+    /*width: 34%;*/
+  }
+
+	#logo_top {
+	  width: 225px;
+	  margin: 10px auto;
+	  border-bottom: 1px solid #7c7b98;
+	}
+
+  h1 {
+    font-size: 1.75em;
+  }
+
+  h2 {
+    font-size: 1.025em;
+    margin-bottom: 20px;
+  }
+
+  header {
+    border-bottom: 5px solid #490000;
+    margin-bottom: 60px;
+  }
+
+  /**********************************
+  PAGE: PORTFOLIO
+  ***********************************/
+
+  #gallery li {
+    width: 28.3333%;
+  }
+
+  #gallery li:nth-child(3n+1) {
+    clear: left;
+  }
+
+  /**********************************
+  TWO COLUMN LAYOUT
+  ***********************************/
+
+  #primary {
+    width: 50%;
+    float: left;
+    min-width: 470px;
+    margin-right: 60px;
+  }
+
+  #secondary {
+    width: 40%;
+    float: left;
+  }
+
+	/**********************************
+	Home Page
+	***********************************/
+	#home-banner {
+	    padding: 25% 0px;
+	}
+	#home-gallery li {
+    width: 28.3333%;
+  }
+
+}

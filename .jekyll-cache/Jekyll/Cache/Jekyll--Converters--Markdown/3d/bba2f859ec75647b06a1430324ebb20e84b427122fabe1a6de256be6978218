@@ -1,0 +1,18 @@
+I"“<section id="home-banner">
+  <ul id="home-gallery">
+    
+      <li>
+        <a href="/gallery/item1">
+          <img src="/path/to/image1.jpg" alt="Silver Item 1" />
+        </a>
+      </li>
+    
+      <li>
+        <a href="/assets/images/butler-silver-sea-vase.jpg">
+          <img src="/assets/images/butler-silver-sea-vase.jpg" alt="Silver Item 2" />
+        </a>
+      </li>
+    
+  </ul>
+</section>
+:ET
