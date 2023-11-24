@@ -4,16 +4,6 @@ title: Contact
 permalink: /contact/
 meta_description: "Contact Robert A. Butler, Silversmith."
 activeC: true
-gallery: 
-  - name: "Silver Item 1"
-    url: "/path/to/image1.jpg"
-    permalink: "/gallery/item1"
-    original_index: 1
-  - name: "Silver Item 2"
-    url: "/path/to/image2.jpg"
-    permalink: "/gallery/item2"
-    original_index: 2
-  # Add more items as needed
 ---
 
 <section style="clear:both; max-width: 740px; margin: 0px auto;">
