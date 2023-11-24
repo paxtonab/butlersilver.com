@@ -1,0 +1,337 @@
+/**********************************
+GENERAL
+
+OLD COLOR: 7c7b98 -> 7c7c96
+***********************************/
+/*sticky footer*/
+html {
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'Brandon';
+  src: local('Brandon'), url(/assets/fonts/Brandon_light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'miller';
+  src: local('miller'), url(/assets/fonts/miller.otf) format("opentype");
+}
+
+body {
+  font-family: 'Brandon', sans-serif;
+  min-width: 350px;
+  /*sticky footer*/
+  height: 100%;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  /*sticky footer*/
+  min-height: 100%;
+	margin: 0 auto -155px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+  font-family: 'Brandon', serif;
+}
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  margin: 0 0 30px 0;
+  padding: 15px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+  min-width: 288px;
+}
+
+
+#logo_home {
+  text-align: center;
+  margin: 0;
+  min-width: 288px;
+}
+
+h1 {
+  font-family: 'miller', serif;
+  margin: 0px;
+  font-size: 1.5em;
+  font-weight: lighter;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-family: 'miller', serif;
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+.breadcrumbs {
+  font-size: 0.75em;
+}
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+  border-top: 1px solid #7c7c96;
+  border-bottom: 1px solid #7c7c96;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 200;
+  padding: 15px 10px;
+  font-family: 'Brandon', serif;
+}
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #000;
+  /*stick footer*/
+  height: 20px;
+}
+
+/*stick footer*/
+.push {
+  height: 155px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/**********************************
+PAGE: HOMEPAGE
+***********************************/
+
+#home-gallery {
+  padding: 0;
+  list-style: none;
+}
+
+#home-gallery li {
+  float: left;
+  width: 95%;
+  margin: 2.5%;
+  /*background-color: #f5f5f5;*/
+  color: #bdc3c7;
+}
+
+
+
+/**********************************
+PAGE: PORTFOLIO
+***********************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 95%;
+  margin: 2.5%;
+  /*background-color: #f5f5f5;*/
+  color: #bdc3c7;
+}
+
+#gallery li a:hover {
+  text-decoration: underline;
+  color: #7c7c96;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  /*color: #0B87D5;*/
+  color: #000;
+}
+
+#gallery li .sharing {
+  margin: 0 0 5% 5%;
+}
+
+
+#gallery li #pin {
+  margin: 5%;
+  padding: 5%;
+}
+
+
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+
+/**********************************
+PAGE: CONTACT
+***********************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('/assets/images/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('/assets/images/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('/assets/images/twitter.png');
+}
+
+
+
+/**********************************
+PAGE: RESUME
+***********************************/
+
+h3 {
+  margin: 2em 0;
+}
+
+h4 {
+  margin: .5em 0;
+}
+
+h5, h6 {
+  display:inline-block;
+  width: 59%;
+  margin: 0;
+}
+
+h6 {
+  width: 39%;
+  text-align: right;
+}
+
+#primary ul, #secondary ul {
+  padding-left: 20px;
+}
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #000;
+  height: 100%;
+}
+
+/* header */
+header {
+  background: #6F0000;
+  border-color: #490000;
+}
+
+/* nav background on mobile
+nav {
+  background: #7c7c96;
+}*/
+
+/* logo text */
+h1, h2 {
+  color: #000;
+}
+
+/* logo text */
+h1 {
+  margin: 10px auto;
+  border-color: #7c7c96;
+}
+
+/* links */
+a {
+  color: #7c7c96;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #000;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  text-decoration: underline;
+}
