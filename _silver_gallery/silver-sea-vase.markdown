@@ -1,0 +1,10 @@
+---
+layout: base
+title: "Sterling Silver Sea Shell and Coral Vase"
+meta_description: "Sea shell and coral vase"
+activeP: true
+url: "/assets/images/butler-silver-sea-vase.jpg"
+url_small: "/assets/images/butler-silver-sea-vase-small.jpg"
+permalink: "silver-sea-vase"
+index: 1
+---

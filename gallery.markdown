@@ -11,7 +11,7 @@ activeP: true
       <li>
         <a href="{{ silver.permalink }}">
           <img src="{{ silver.url_small }}" alt="{{ silver.name }}">
-          <p>{{ silver.description }}</p>
+          <p>{{ silver.meta_description }}</p>
         </a>
       </li>
     {% endfor %}

@@ -8,7 +8,7 @@ activeP: true
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    {% include meta.html %}
+    {% include meta.markdown %}
     <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/responsive.css' | relative_url }}">
@@ -35,6 +35,7 @@ activeP: true
     </header>
     <div id="wrapper">
       {{ content }}
+      {% include silver.markdown %}
       <!-- stick footer-->
       <div class="push"></div>
     </div><!--/.wrapper-->
