@@ -10,12 +10,12 @@ html {
 
 @font-face {
   font-family: 'Brandon';
-  src: local('Brandon'), url(/assets/fonts/Brandon_light.otf) format("opentype");
+  src: local('Brandon'), url({{ '/assets/fonts/Brandon_light.otf' | relative_url }}) format("opentype");
 }
 
 @font-face {
   font-family: 'miller';
-  src: local('miller'), url(/assets/fonts/miller.otf) format("opentype");
+  src: local('miller'), url({{ '/assets/fonts/miller.otf' | relative_url }}) format("opentype");
 }
 
 body {
