@@ -248,15 +248,15 @@ PAGE: CONTACT
 }
 
 .contact-info li.phone a {
-  background-image: url('../img/phone.png');
+  background-image: url('/assets/images/phone.png');
 }
 
 .contact-info li.mail a {
-  background-image: url('../img/mail.png');
+  background-image: url('/assets/images/mail.png');
 }
 
 .contact-info li.twitter a {
-  background-image: url('../img/twitter.png');
+  background-image: url('/assets/images/twitter.png');
 }
 
 

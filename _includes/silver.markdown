@@ -3,6 +3,10 @@
     <p class="breadcrumbs"><a href="/gallery">Gallery</a> > {{ page.title }}</p>
     <h3>{{ page.title }}</h3>
     <img src="{{ page.img }}" alt="{{ page.title }}">
-    <p>{{ page.meta_description }}</p>
+    {% if page.description %}
+        <p>{{ page.description }}</p>
+    {% else %}
+        <p>{{ page.meta_description }}</p>
+    {% endif %}
 </section>
 {% endif %}

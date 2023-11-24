@@ -26,13 +26,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   career his artwork has been displayed in museums around the world.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
-github_username:  ""
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# theme: minima
+# plugins:
+#   - jekyll-feed
 
 collections:
   silver_gallery:
