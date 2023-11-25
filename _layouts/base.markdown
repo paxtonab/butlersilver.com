@@ -43,14 +43,14 @@ activeP: true
       <p>&copy; {{ 'now' | date: "%Y" }} Robert A. Butler</p>
       <a href="{{ '/contact' | relative_url }}"><img src="{{ '/assets/images/butler-silver-logo.png' | relative_url }}" alt="Butler Silver Logo" class="social-icon"></a>
     </footer>
-    <!-- Google Tag Manager -->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5DNZFN"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5DNZFN');</script>
-    <!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-117Y5TR08G"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-117Y5TR08G');
+    </script>
+    <!-- End Google tag -->
   </body>
 </html>
